@@ -1,0 +1,712 @@
+.gform_wrapper form li.calculated-price{ 
+	height:0; 
+	overflow:hidden; 
+}
+/**********for select files****************/
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) select.large,
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) select.medium{
+	border: none ;
+    padding: 15px 12px ;
+    font-size: 14px ;
+    width: 100% ;	
+}
+/**********for input files****************/
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) select, 
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) select, 
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields div:not(.ginput_container_date) select
+{
+	border: none ;
+    padding: 15px 12px ;
+    font-size: 14px ;
+    width: 100% ;
+}
+/**********for textarea files****************/
+
+.gform_wrapper li.gfield.ids-fields input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), 
+.gform_wrapper select, 
+.gform_wrapper li.gfield.ids-fields textarea.medium, 
+.gform_wrapper li.gfield.ids-fields textarea.large {
+    background: rgba(0,0,0,0.04);
+    border: none ;
+    border-radius: 5px;
+    padding: 15px 12px ;
+    font-size: 14px ;
+    width: 100% ;
+    line-height: 1.5;
+}
+/**************for field boder error **************/
+.gform_wrapper li.gfield.gfield_error.ids-fields, 
+.gform_wrapper li.gfield.gfield_error.ids-fields.gfield_contains_required.gfield_creditcard_warning,
+.gform_wrapper li.gfield.gfield_error.ids-radio , 
+.gform_wrapper li.gfield.gfield_error.ids-radio.gfield_contains_required.gfield_creditcard_warning{
+border: none;
+}
+
+/**************for field li margin error **************/
+.gform_wrapper li.gfield.gfield_error.ids-fields.gfield_contains_required div.ginput_container, 
+.gform_wrapper li.gfield.gfield_error.ids-fields.gfield_contains_required label.gfield_label{
+    margin-top:0px;
+}
+
+.gform_wrapper .gform_page .gfield_error .gfield_label{
+   
+    width: 100%;
+   
+    padding: 4px 0px;
+}
+/**************for  input field border **************/
+.ids-fields input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, select:focus, textarea:focus{
+border:1px solid #11999c !important;/*******already use imaportant*****/
+}
+.ids-fields label {
+    font-size: 13px !important;
+}
+.ids-calender > .ginput_container_date{
+	position: relative;
+}
+.ids-calender img{
+	position: absolute;
+	top:0;
+	right:0;
+	margin:15px; 
+}
+.ids-radio #left-area ul li ul, 
+.comment-content ul li ol, 
+.comment-content ul li ul, 
+.entry-content ul li ol, 
+body.et-pb-preview #main-content 
+.container ul li ol{
+    padding: 0px;
+}
+
+/*********for section wrap css********/
+.ids-section{
+    box-shadow:0 -1px 19px rgba(68, 68, 68, 0.3 );
+    background: #fff;
+    padding: 60px 60px 50px 60px !important;
+}
+
+.gfield.gsection.ids-tittle{
+    background: transparent;
+    color: #000;
+    font-size: 30px;
+}
+.ids-tittle .gsection_description {
+    text-align: center;
+    font-size: 15px !important;
+}
+input#gform_submit_button_92 {
+    padding: 12px 30px;
+    float: right;
+    border-radius: 5px;
+}
+.ids-tittle{
+    position:relative;
+}
+.price-ids{
+    float:right;
+}
+.ids-fields2{
+    border: none ;
+    padding: 15px 12px ;
+    font-size: 14px ;
+}
+input.ids-apply {
+    background: #000000;
+    border-radius: 23px;
+    font-size: 16px;
+    font-family: "OpenSansBold";
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 45px;
+    color: #fff;
+    cursor: pointer;
+}
+.gform_wrapper .ginput_complex .ginput_left, 
+.gform_wrapper .ginput_complex .ginput_right{
+     width:100% !important;
+    
+}
+.gform_wrapper .gform_page .ginput_complex .ginput_left{
+    padding-right: 0px;
+}
+.ids-rate{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.ids-section2 {
+    box-shadow: 0 -1px 19px rgba(68, 68, 68, 0.3 );
+    background: #fff;
+    padding: 60px 67px 50px 67px !important;
+}
+.ids-img{
+    margin-left:40px
+}
+.ids-border {
+    border-left:1px solid #ccc;
+    border-style:dotted;
+}
+.protection_ins_tick{
+  position: relative;
+}
+.protection_ins_tick li a {
+    text-decoration: underline;
+}
+.protection_ins_tick li a:hover {
+    text-decoration:none;
+}
+body .gform_wrapper .gform_fields li.price-field{
+    text-align: right;
+    font-weight: bold;
+}
+body .gform_wrapper .gform_fields li.price-field span.ginput_product_price,
+body .gform_wrapper .gform_fields li.price-field .ginput_container.ginput_container_total span.ginput_total{
+    color: #069d26;
+    font-size: 24px;
+}
+body .gform_wrapper .gform_fields li .gfield_description,
+body .gform_wrapper .gform_fields li label{
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1.3;
+    padding-top:0;
+}
+#field_92_180{
+    margin-top:0;
+}
+body .ids-tittle h2.section_title{
+    padding:20px !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+.custom-pricing .et_pb_pricing li:nth-child(1){
+    margin-left: -7px;
+    padding-left: 0;
+    margin-right: -7px;
+    margin-top: -18px;
+    text-align: center;
+}
+.custom-pricing .et_pb_pricing_table > .et_pb_pricing_content_top{
+    display:none;
+}
+body .gform_wrapper .gform_fields li.price-field{
+    margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+body .gform_wrapper .gform_fields li.price-field input{
+	background: none !important;
+    text-align: right;
+    margin-top:0 !important;
+    margin-right:0 !important;
+	margin-bottom:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+    padding-right:0 !important;
+    color: #069d26;
+    font-size: 24px !important;
+    font-weight:bold;
+}
+body .gform_wrapper .gform_fields li #field_92_275{
+    margin-top:0 !important;
+}
+body .gform_wrapper .gform_fields li #field_92_274{
+	margin-bottom:0 !important;	
+}
+body .gform_wrapper .gform_fields li #input_92_277,
+body .gform_wrapper .gform_fields li #input_94_277,
+body .gform_wrapper .gform_fields li #input_97_277,
+body .gform_wrapper .gform_fields li #input_98_277,
+body .gform_wrapper .gform_fields li #input_100_277{
+	background:none !important;
+}
+.gfield_description.validation_message{
+	display:none;
+}
+
+.gform_wrapper li.gfield.ids-fields.ids-code input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+    max-width: 66%;
+    float: left;
+    width: 100%;
+}
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) select{
+    max-width: 121px;
+}
+
+.gform_wrapper .top_label .ids-code .gfield_label{
+    display :none;
+}
+.gform_wrapper .ids-code input#gf_coupon_button.button{
+    background: #2EA3F2;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 0px!important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    float:right;
+}
+.gform_wrapper ul.gform_fields li.gfield .ids-appearance{
+    margin-top: 28px;
+}
+.gform_wrapper .ids-fields .gfield_error .ginput_complex .ginput_left, 
+.gform_wrapper .ids-fields .gfield_error .ginput_complex .ginput_right, 
+.gform_wrapper .ids-fields .ginput_complex .ginput_cardinfo_left,
+.gform_wrapper .ids-fields .ginput_complex .ginput_cardinfo_right{
+    width: 100%;
+}
+.gsection_title {
+  text-align: center;
+  line-height: 1.7em;
+}
+.gsection_title:before {display:none}
+@media screen and (min-width: 320px) and (max-width:640px){
+.ids-section {
+    padding: 20px 15px 0px 0px !important;
+}
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) input:not([type=radio]):not([type=checkbox]):not(.ginput_quantity), 
+.gform_wrapper .top_label li.gfield.ids-fields.ids-code div:not(.ginput_container_date) select{
+   margin-top: 13px;
+}
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+body .gform_wrapper .gform_fields li .gfield_description, 
+body .gform_wrapper .gform_fields li label{
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+}
+
+/*********** gf form css id-92**************/
+
+ul.progressbar.nav-wizard {
+    position: relative;
+    z-index: 1;
+}
+.progressbar li.active a:before,
+.progressbar li.active a:after{
+background-color: #2ea3f2 ;
+}
+.progressbar li.done a:before,
+.progressbar li.done a:after{
+background-color: #000 ;
+}
+.progressbar li.done .ids-progress:before {
+    background-color: #000 !important;
+}
+
+body .ids-fakies-form .gform_wrapper .top_label div.ginput_container {
+    width: 100%;
+}
+
+.progressbar li.active .ids-progress:before{
+     background-color: #2ea3f2  !important;
+     color:#fff;
+     transform: scale(1.3);
+}
+
+.progressbar li a ,
+.progressbar li span {
+    width:100%;
+    float:left;
+    color:#000;
+    font-size: 20px;
+}
+.progressbar li {
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  font-weight:bold;
+  pointer-events: none;
+}
+
+.progressbar .active a {
+    color: #2ea3f2;
+}
+.progressbar .active a + :after {
+    background-color: #2ea3f2;
+}
+
+.progressbar li .ids-progress:before{
+   font: normal normal normal 14px/1 FontAwesome;
+   width: 50px;
+    height: 50px;
+    line-height: 52px;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    background: #ccc;
+    font-weight: bold;
+    font-size: 25px;
+    color:#fff;
+}
+.progressbar li:first-child .ids-progress:before{
+        content: '\f007';
+}
+.progressbar li:nth-child(2) .ids-progress:before{
+    content: "\f0f7";
+}
+#gform_94 .progressbar li:nth-child(2) .ids-progress:before{
+    content: "\f072";
+}
+.progressbar li:nth-child(3) .ids-progress:before{
+    content: "\f0ce ";
+}
+.progressbar li:nth-child(4) .ids-progress:before{
+    content: "\f2c2";
+}
+@media screen and (max-width:640px){
+.ids-left, .ids-right{
+    text-align: center !important;
+
+}
+}
+@media screen and (min-width:220px) and (max-width:1050px){
+    .progressbar li a, .progressbar li span{
+        font-size:0px;
+    }
+    .active span.ids-progress:after{
+        display: none;
+    }
+   
+    span.ids-progress:before {
+        font-size: 14px;
+        font-weight: bold;
+    }
+.fk-col-2 .ginput_container.ginput_container_radio ul li, .fk-col-3 .ginput_container.ginput_container_radio ul li, .fk-col-4 .ginput_container.ginput_container_radio ul li, .fk-col-5 .ginput_container.ginput_container_radio ul li{
+    max-width: 48% !important;
+}
+}
+
+
+.progressbar li a:before,
+.progressbar li a:after {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: #ccc;
+    top: 24px;
+    right: 0%;
+    z-index: -1;
+}
+.progressbar li a:after {
+    left: 0%;
+}
+li.active a span.ids-progress {
+    color: #2ea3f2;
+}
+.active span.ids-progress:after {
+    content: "\f05d";
+    color: #2ea3f2;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    margin-left: 3px;
+
+}
+.button {
+    padding: 12px 30px;
+    float: left;
+    text-transform: uppercase;
+    background: #2EA3F2;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+.ids-right {
+    text-align: right;
+}
+strong.visa-tittle {
+    font-size: 25px;
+    color: #000;
+}
+i.ids-icon {
+    padding-right:10px;
+    color: #66CCCC;
+}
+span.ids-span{
+    color: #66CCCC;
+}
+.gform_fields.top_label.form_sublabel_below.description_below {
+    margin-top: 50px !important;
+}
+input[type=radio] {
+  visibility:hidden;
+}
+input[type=radio] label {
+  position: relative;
+  cursor: pointer;
+}
+input[type=radio] + label:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0px 8px 0 8px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #cccccc8a;
+}
+input[type=radio]:checked + label {
+  position: relative;
+}
+input[type=radio]:checked + label:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 6px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #2ea3f2;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+input[type=radio]:checked + label:before {
+  background-color: #fff;
+}
+
+/********* payment list css**************/
+
+.gform_wrapper li.gfield.ids-fields .protection_ins_tick ul li:before {
+    content: "\f05d";
+    color: #2ea3f2;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 22px;
+    padding: 0px 6px;
+}
+
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.ids-fields.gfield_html ul li, 
+body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.ids-fields.gfield_html ul li {
+    list-style-type: none!important;/******all ready use !important***/
+}
+
+.progressbar li.step-2,
+ .progressbar li.step-3{
+    display:none;
+ } 
+ .progressbar li.active.step-2,
+ .progressbar li.active.step-3,
+ .progressbar li.active.step-4{
+    display:inline-block;
+ } 
+ .step-number-3 li.step-2{
+    display: none;
+ }
+ .step-number-2 li.step-3{
+    display: none;
+ }
+.progressbar li {
+    width: 50%;
+}
+.progressbar.step-number-3 li {
+    width: 25%;
+}
+.number-of-person-1 li.step-2{
+    display:inline-block;
+}
+.step-number-3 li.step-2,
+.step-number-3 li.step-3{
+    display:inline-block;
+}
+.step-number-4 li.step-2,
+.step-number-4 li.step-3,
+.step-number-4 li.step-4{
+    display:inline-block;
+}
+.gform_wrapper input.button.gform_button {
+    border-radius: 0px !important;/****** all ready use Important*******/
+    padding: 12px 30px;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_button.button,
+.gform_wrapper .gform_page_footer .button.gform_next_button.button{
+    float: right;
+    margin-right: 0px;
+}
+
+.progressbar.nav-wizard.step-number-4.hotel-no.insurance-no li.step-2,
+.progressbar.nav-wizard.step-number-4.hotel-no.insurance-no li.step-3,
+.progressbar.nav-wizard.step-number-2.hotel-yes.insurance-no li.step-3,
+.progressbar.nav-wizard.step-number-4.hotel-yes.insurance-no li.step-3,
+.progressbar.nav-wizard.step-number-3.hotel-no.insurance-yes li.step-2,
+.progressbar.nav-wizard.step-number-4.hotel-no.insurance-yes li.step-2,
+.progressbar.nav-wizard.step-number-4.insurance-no li.step-3{
+    display: none;
+
+}
+.progressbar.nav-wizard.step-number-4.hotel-no.insurance-no li {
+    width: 50%;
+}
+.progressbar.nav-wizard.step-number-2.hotel-yes.insurance-no li,
+.progressbar.nav-wizard.step-number-4.hotel-yes.insurance-no li,
+.progressbar.nav-wizard.step-number-3.hotel-no.insurance-yes li,
+.progressbar.nav-wizard.step-number-4.hotel-no.insurance-yes li,
+.progressbar.nav-wizard.step-number-2.insurance-no li,
+.progressbar.nav-wizard.step-number-4.insurance-no li,
+#gform_97 .progressbar.nav-wizard.step-number-1 li{
+width: 33.33%;
+}
+
+
+.progressbar.nav-wizard.step-number-2.hotel-yes.insurance-yes li.step-2,
+.progressbar.nav-wizard.step-number-2.hotel-yes.insurance-yes li.step-3,
+.progressbar.nav-wizard.step-number-2.insurance-yes li.step-3,
+#gform_98 .progressbar.nav-wizard.step-number-1 li.step-2,
+#gform_98 .progressbar.nav-wizard.step-number-1 li.step-3,
+#gform_98 .progressbar.nav-wizard.step-number-2 li.step-2,
+#gform_98 .progressbar.nav-wizard.step-number-2 li.step-3,
+#gform_98 .progressbar.nav-wizard.step-number-3 li.step-2,
+#gform_98 .progressbar.nav-wizard.step-number-3 li.step-3,
+#gform_98 .progressbar.nav-wizard.step-number-4 li.step-2,
+#gform_98 .progressbar.nav-wizard.step-number-4 li.step-3,
+#gform_97 .progressbar.nav-wizard.step-number-1 li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-2 li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-2 li.step-3,
+#gform_100 .progressbar.nav-wizard.step-number-1 li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-1 li.step-3{
+display: inline-block;
+}
+
+body #gform_92 select,
+body #gform_94 select,
+body #gform_97 select,
+body #gform_98 select,
+body #gform_100 select{
+    height:50px;
+}
+.progressbar.nav-wizard.step-number-2.hotel-yes.insurance-yes li,
+.progressbar.nav-wizard.step-number-4.hotel-yes.insurance-yes li,
+.progressbar.nav-wizard.step-number-2.insurance-yes li,
+.progressbar.nav-wizard.step-number-4.insurance-yes li,
+.progressbar.nav-wizard.step-number-4 li,
+#gform_98 .progressbar.nav-wizard.step-number-1 li,
+#gform_98 .progressbar.nav-wizard.step-number-2 li,
+#gform_98 .progressbar.nav-wizard.step-number-3 li,
+#gform_98 .progressbar.nav-wizard.step-number-4 li,
+#gform_100 .progressbar.nav-wizard.step-number-2 li,
+#gform_100 .progressbar.nav-wizard.step-number-1 li{
+    width: 25%;
+}
+#gform_100 .progressbar li:first-child .ids-progress:before {
+    content: "\f0ce ";
+}
+#gform_100 .progressbar li:nth-child(2) .ids-progress:before {
+    content: '\f007';
+}
+#gform_100 .progressbar li:nth-child(3) .ids-progress:before {
+    content: "\f0f7";
+}
+
+body .gform_wrapper .gf_left_third  .top_label div.ginput_container,
+body .gform_wrapper .gf_right_third  .top_label div.ginput_container {
+    padding-right:16px: 
+}
+
+.gform_wrapper .gform_page .top_label li.gfield.gfield_error.gf_left_third, 
+.gform_wrapper .gform_page .top_label li.gfield.gfield_error.gf_middle_third {
+    width:33.3% !important;/**** all ready use**********/
+    margin-right:0px;
+
+}
+
+
+.gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+.gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    padding-right: 16px;
+}
+
+.gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required div.ginput_container.ginput_container_textarea {
+    padding-right: 0;
+}
+.gfield_error.ids-calender img { 
+    right: 8px;
+}
+body .gform_wrapper .gform_page img.ui-datepicker-trigger{
+    height: 20px!important;/**** all ready use**********/
+}
+
+/**** for  coupon item css **********/
+.gform_wrapper #gf_coupon_info {
+
+    float: right;
+}
+.gform_wrapper img#gf_coupon_spinner {
+    float: right;
+    vertical-align: middle;
+    margin-top: 18px;
+}
+
+/************* gform_validation_message background css****************/
+.gform_wrapper .gform_page li.gfield.gfield_error, 
+.gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning
+{
+    background-color: transparent;
+}
+
+/************* for responsive css****************/
+@media only screen and (min-width: 320px) and (max-width:1348px){
+.gform_wrapper li.gfield.ids-fields.ids-code input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    max-width: 100%;
+}
+.gform_wrapper .ids-code input#gf_coupon_button.button {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+}
+}
+
+@media only screen and (min-width: 641px) and (max-width:1170px){
+
+li.ids-fields{
+    width: 100% !important;
+}
+.gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error.gf_left_half.ids-fields, 
+.gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error.gf_right_half.ids-fields,
+.gform_wrapper.gform_validation_error .gform_body ul li.gfield.ids-fields.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+  max-width: 100% !important;
+  width: 100% !important;
+
+}
+}
+
+
+@media only screen and (max-width:640px){
+.gform_wrapper .gform_page .top_label li.gfield.gfield_error.gf_left_third, 
+.gform_wrapper .gform_page .top_label li.gfield.gfield_error.gf_middle_third {
+    width:100% !important;/**** all ready use**********/
+
+}
+#gform_100 .gform_wrapper .gform_page ul.gform_fields li.gfield {
+    width: 100%;
+}
+.gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required div.ginput_container, 
+.gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    padding-right: 0;
+}
+}
