@@ -144,7 +144,11 @@ input.ids-apply {
     padding: 60px 67px 50px 67px !important;
 }
 .ids-img{
-    margin-left:40px
+    margin-left:40px;
+    font-weight: normal;
+}
+.protection_ins_tick ul {
+    font-weight: normal;
 }
 .ids-border {
     border-left:1px solid #ccc;
@@ -287,11 +291,11 @@ body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html {
     font-size: 14px;
     color: #000;
 }
-body .gform_wrapper .gform_fields li .gfield_description, 
+/*****body .gform_wrapper .gform_fields li .gfield_description, 
 body .gform_wrapper .gform_fields li label{
     font-size: 12px !important;
     font-weight: normal !important;
-}
+}********/
 }
 
 /*********** gf form css id-92**************/
@@ -560,7 +564,13 @@ body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.ids-fields.gfi
     display: none;
 
 }
-.progressbar.nav-wizard.step-number-4.hotel-no.insurance-no li {
+
+#gform_100 .progressbar.nav-wizard.step-number-2 li.step-2{
+    display: inline-block;
+
+}
+.progressbar.nav-wizard.step-number-4.hotel-no.insurance-no li,
+#gform_100 .progressbar.nav-wizard.step-number-1 li {
     width: 50%;
 }
 .progressbar.nav-wizard.step-number-2.hotel-yes.insurance-no li,
@@ -585,11 +595,7 @@ width: 33.33%;
 #gform_98 .progressbar.nav-wizard.step-number-3 li.step-3,
 #gform_98 .progressbar.nav-wizard.step-number-4 li.step-2,
 #gform_98 .progressbar.nav-wizard.step-number-4 li.step-3,
-#gform_97 .progressbar.nav-wizard.step-number-1 li.step-2,
-#gform_100 .progressbar.nav-wizard.step-number-2 li.step-2,
-#gform_100 .progressbar.nav-wizard.step-number-2 li.step-3,
-#gform_100 .progressbar.nav-wizard.step-number-1 li.step-2,
-#gform_100 .progressbar.nav-wizard.step-number-1 li.step-3{
+#gform_97 .progressbar.nav-wizard.step-number-1 li.step-2{
 display: inline-block;
 }
 
@@ -608,9 +614,7 @@ body #gform_100 select{
 #gform_98 .progressbar.nav-wizard.step-number-1 li,
 #gform_98 .progressbar.nav-wizard.step-number-2 li,
 #gform_98 .progressbar.nav-wizard.step-number-3 li,
-#gform_98 .progressbar.nav-wizard.step-number-4 li,
-#gform_100 .progressbar.nav-wizard.step-number-2 li,
-#gform_100 .progressbar.nav-wizard.step-number-1 li{
+#gform_98 .progressbar.nav-wizard.step-number-4 li{
     width: 25%;
 }
 #gform_100 .progressbar li:first-child .ids-progress:before {
@@ -661,6 +665,20 @@ body .gform_wrapper .gform_page img.ui-datepicker-trigger{
     vertical-align: middle;
     margin-top: 18px;
 }
+.ids-fields h1 {
+    font-weight: bold;
+    text-align: center;
+}
+/************* for Thanku page css****************/
+.visa-order {
+    box-shadow: 0 -1px 19px rgba(68, 68, 68, 0.3 );
+    background: #fff;
+}
+
+/************* for responsive gfield_description css****************/
+body .gform_wrapper .gform_fields li.ids-fields .gfield_description {
+    font-size: 11px;
+}
 
 /************* gform_validation_message background css****************/
 .gform_wrapper .gform_page li.gfield.gfield_error, 
@@ -680,6 +698,16 @@ body .gform_wrapper .gform_page img.ui-datepicker-trigger{
     margin-top: 15px;
 }
 }
+@media only screen and (min-width: 1171px) and (max-width:1365px){
+    
+/************* for responsive gfield_description css****************/
+body .gform_wrapper .gform_fields li.ids-fields .gfield_description {
+    font-size: 9px;
+}
+}
+
+
+/************* for responsive css end****************/
 
 @media only screen and (min-width: 641px) and (max-width:1170px){
 
@@ -709,4 +737,32 @@ li.ids-fields{
 .gform_wrapper .gform_page li.gfield.gfield_error.gfield_contains_required label.gfield_label {
     padding-right: 0;
 }
+}
+
+
+/*****************for insurance for *******************/
+
+#gform_100 .progressbar.nav-wizard.step-number-1 li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-1 li.step-3{
+    display: none;
+
+}
+#gform_100 .progressbar.nav-wizard.step-number-3.hotel-yes.insurance-no li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-4.hotel-yes.insurance-no li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-2.hotel-no.insurance-yes li.step-3,
+#gform_100 .progressbar.nav-wizard.step-number-3.hotel-no.insurance-yes li.step-3,
+#gform_100 .progressbar.nav-wizard.step-number-4.hotel-no.insurance-yes li.step-3{
+    display: none;
+}
+
+#gform_100 .progressbar.nav-wizard.step-number-4.hotel-yes.insurance-no li.step-3,
+#gform_100 .progressbar.nav-wizard.step-number-3.hotel-no.insurance-yes li.step-2,
+#gform_100 .progressbar.nav-wizard.step-number-4.hotel-no.insurance-yes li.step-2{
+    display: inline-block;
+
+}
+
+#gform_100 .progressbar.nav-wizard.step-number-3.hotel-yes.insurance-no li,
+#gform_100 .progressbar.nav-wizard.step-number-2.hotel-no.insurance-yes li{
+    width: 33.33%;
 }
